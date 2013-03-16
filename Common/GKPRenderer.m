@@ -198,7 +198,7 @@ static GLKVector4 selectedColors[SELECTED_COLOR_NUM] = {
 {
 	//引数は左下原点の座標
 	bool isSuccess;
-#if 1
+#if 0
 	// 人力 unproject
 	/* // wで割らずにGLKMatrix4MultiplyAndProjectVector3を使えば良いじゃない
 	GLKVector4 screenVec = GLKVector4Make((px / _viewportWidth) * 2.0f - 1.0f, (py / _viewportHeight) * 2.0f - 1.0f, 1.0f, 1.0f);
